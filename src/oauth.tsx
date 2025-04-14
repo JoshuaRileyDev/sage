@@ -6,10 +6,10 @@ import fetch from "node-fetch";
 // As type of app choose: Native App
 // For the redirect URL enter: https://raycast.com/redirect
 // For the website URL enter: https://raycast.com
-const clientId = "a30eb717-39e7-c55a-b6c4-c59add3a2a40/2c26d03f-88de-4031-9290-32932e693afc";
+const clientId = "a30eb717-3979-cca3-b2ee-ea192d02fe57/939d4780-5c8c-4491-a061-ec2106970f35";
 
 const client = new OAuth.PKCEClient({
-    redirectMethod: OAuth.RedirectMethod.App,
+    redirectMethod: OAuth.RedirectMethod.Web,
     providerName: "Sage One",
     providerIcon: "command-icon.png",
     description: "Connect your Sage One account",
